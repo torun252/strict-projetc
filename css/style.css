@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap");
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #2D3950; }
+
+.service-section .service .icon {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,5fc3ff+50 */
+  background: #48baff;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 );
+  /* IE6-9 */ }
+
+.navbar .navbar-nav .nav-item .nav-link, .btn-custom {
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear; }
+
+.navbar {
+  background-color: #F6F9F9;
+  padding: 30px 0px; }
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: #2D3950;
+    font-weight: 700;
+    text-transform: uppercase; }
+    .navbar .navbar-nav .nav-item .nav-link:hover {
+      color: #15a4fa; }
+
+.banner-section {
+  background-image: url(../images/Strict.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .banner-section .click {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    font-size: 20px;
+    color: #fff;
+    transform: translate(-50%); }
+  .banner-section .row {
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+    .banner-section .row h1 {
+      font-size: 120px;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 600; }
+  .banner-section span {
+    background-color: #15a4fa;
+    display: block;
+    height: 4px;
+    margin-bottom: 20px; }
+  .banner-section p {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #fff; }
+
+.btn-custom {
+  border: 1px solid #15a4fa;
+  color: #fff;
+  padding: 10px 20px; }
+  .btn-custom:hover {
+    background: #15a4fa;
+    color: #fff; }
+
+.about-us-section {
+  background-color: #F6F9F9;
+  text-align: center;
+  padding: 40px 0; }
+  .about-us-section h2 {
+    font-size: 30px;
+    font-weight: 500; }
+  .about-us-section p {
+    font-size: 15px; }
+
+.service-section {
+  padding: 100px 0;
+  text-align: center; }
+  .service-section .service .icon {
+    height: 100px;
+    width: 100px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+    margin: auto; }
+    .service-section .service .icon i {
+      text-shadow: 1px 1px 5px #2d3950; }
+  .service-section h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0; }
+
+.showcase-section {
+  background-color: #F6F9F9; }
+  .showcase-section img {
+    margin-bottom: 20px; }
+  .showcase-section h2 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600; }
+  .showcase-section p {
+    font-size: 20px;
+    text-align: center;
+    padding: 15px; }
+
+.contact-section {
+  background-image: url(../images/contact.png);
+  color: #fff;
+  height: 500px;
+  padding: 50px 0;
+  background-blend-mode: overlay;
+  background-color: #282167a3; }
+  .contact-section h2 {
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500; }
+  .contact-section p {
+    margin-top: 20px;
+    color: #fff;
+    text-align: center; }
+  .contact-section .check-box {
+    margin-right: 10px; }
+
+footer {
+  background-color: #F6F9F9;
+  padding: 50px 0; }
+  footer p {
+    margin-bottom: 0; }
+  footer ul li a {
+    margin-left: 10px;
+    background-color: #15a4fa;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px; }
+
+form {
+  text-align: center; }
+  form .between {
+    justify-content: space-between; }
+  form .text {
+    background-color: initial;
+    width: 540px;
+    height: 48px;
+    border: 0.2px solid #ddd;
+    margin-bottom: 20px; }
+  form .massage {
+    background-color: initial;
+    width: 540px;
+    height: 108px;
+    border: 0.2px solid #ddd;
+    margin-bottom: 20px; }
+  form .checkbtn {
+    color: #fff;
+    margin-right: auto; }
+
+/*# sourceMappingURL=style.css.map */
